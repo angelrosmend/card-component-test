@@ -1,0 +1,43 @@
+@import "./colors";
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 18px;
+$font-size-lg: 20px;
+$font-size-xl: 24px;
+
+.card-product-title{
+font-family: 'Archivo';
+font-style: italic;
+font-weight: 700;
+font-size: $font-size-xl;
+line-height: 31px;
+letter-spacing: -0.5px;
+text-transform: uppercase;
+color: $main-black;
+}
+.card-product-description{
+font-family: 'Archivo';
+font-style: italic;
+font-weight: 400;
+font-size: $font-size-sm;
+line-height: 17px;
+color: $main-black;
+}
+.card-product-subtitle{
+font-family: 'Barlow';
+font-style: italic;
+font-weight: 700;
+font-size: $font-size-xs;
+line-height: 14px;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+}
+
+:export{
+   fontSizeXS:$font-size-xs;
+   fontSizeSM:$font-size-sm;
+   fontSizeMD:$font-size-md;
+   fontSizeLG:$font-size-lg;
+   fontSizeXL:$font-size-xl;
+}
