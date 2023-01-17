@@ -11,7 +11,7 @@ interface TextProps{
 function Text(props: TextProps) {
 
     const {children, title, subtitle, ...rest} = props
-     console.log(rest)
+    
     if(title) return <h1 {...rest}>{children}</h1>
 
     if(subtitle) return <h1 {...rest}>{children}</h1>
