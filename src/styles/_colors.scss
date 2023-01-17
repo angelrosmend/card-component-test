@@ -13,3 +13,19 @@ $white-1: #FFFFFF;
 $white-2: #F6F6F6;
 $white-3: #F0F0F0;
 $white-4: #E5E5E5;
+
+:export{
+    mainYellow: $main-yellow;
+    mainBlack: $main-black;
+
+    grey1:$grey-1;
+    grey2:$grey-2;
+    grey3:$grey-3;
+    grey4:$grey-4;
+    grey5:$grey-5;
+
+    white1: $white-1;
+    white2: $white-2;
+    white3: $white-3;
+    white4: $white-4;
+}
