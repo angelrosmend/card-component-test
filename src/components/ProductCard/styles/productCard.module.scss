@@ -1,0 +1,10 @@
+@import "../../../styles/main.scss";
+
+.cardContainer{
+    display: flex;
+    width: 343px;
+    height: 589px;
+    flex-direction: column;
+    box-shadow: 0px 7px 30px rgba(106, 106, 155, 0.1);
+    background: $white-1;
+}
