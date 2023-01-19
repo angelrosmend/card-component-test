@@ -1,8 +1,11 @@
   {
-  "products": [
-    {"id": 1},
-    {"id": 2},
-    {"id": 3},
-    {"id": 4}
-  ]
+    "products":
+ {
+  "category": {
+    "string": ["One", "Two"]
+  },
+  "code": {
+    "int": [100, 200, 300]
+  }
+}
 }
