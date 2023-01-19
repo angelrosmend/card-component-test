@@ -2,7 +2,7 @@
  "products": [
     {
      "id": 1,
-     "imgage": "https://solobici.es/wp-content/uploads/2020/05/cannondale-8.png", 
+     "image": "https://solobici.es/wp-content/uploads/2020/05/cannondale-8.png", 
      "title": "Adventure Neo 1 Eq",
      "brand":"Cannondale",
      "year": 2019,
@@ -25,7 +25,7 @@
                  "https://m.media-amazon.com/images/I/41mOGNxWQhL._AC_SL1000_.jpg"
                ]
      "title":"Cannondale Adventure Neo 3.1 EQ",
-     "brand": "Cannondale,
+     "brand": "Cannondale",
      "year": 2022,
      "condition": "nouvo",
      "favorite": false,
@@ -41,7 +41,7 @@
     
      {
       "id": 3,
-      "imgage": ["https://m.media-amazon.com/images/I/61GjoP+slLL._AC_SL1000_.jpg",
+      "image": ["https://m.media-amazon.com/images/I/61GjoP+slLL._AC_SL1000_.jpg",
                  "https://m.media-amazon.com/images/I/61baPlVOyBL._AC_SL1000_.jpg"], 
       "title": "Fafrees Adventure Neo 4.2 EQ ",
       "brand": "Fafrees",
@@ -60,7 +60,7 @@
   
      {
       "id": 4,
-      "imgage": [
+      "image": [
                    "https://m.media-amazon.com/images/I/71MY4ruDbnL._AC_SL1500_.jpg",
                    "https://m.media-amazon.com/images/I/71tOOvAIyRL._AC_SL1500_.jpg",
                    "https://m.media-amazon.com/images/I/71alC4gWvsL._AC_SL1500_.jpg",
