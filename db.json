@@ -1,7 +1,85 @@
 {
  "products": [
-   {"id": 1},
-   {"id": 2},
-   {"id": 3}
+    {
+     "id": 1,
+     "imgage": "https://solobici.es/wp-content/uploads/2020/05/cannondale-8.png", 
+     "title": "Adventure Neo 1 Eq",
+     "brand":"Cannondale",
+     "year": 2019,
+     "condition": "usato",
+     "favorite": false,
+     "description": "Una bici elettrica ideale per andare al lavoro o per godersi le caratteristiche stradine di campagna",
+     "price": 3.299,
+     "old_price": 4.200,
+     "taglia": ["S", "M", "L", "XL"],
+     "colori_qty": "+4",
+     "stars": "4",
+     "rating": 8.560,
+     "currency": "€",
+   },
+   {
+     "id": 2,
+      "image": [
+                 "https://m.media-amazon.com/images/I/51KH9QAODZL._AC_SX425_.jpg",
+                 "https://m.media-amazon.com/images/I/51r5DxTQsZL._AC_SL1000_.jpg",
+                 "https://m.media-amazon.com/images/I/41mOGNxWQhL._AC_SL1000_.jpg"
+               ]
+     "title":"Cannondale Adventure Neo 3.1 EQ",
+     "brand": "Cannondale,
+     "year": 2022,
+     "condition": "nouvo",
+     "favorite": false,
+     "description": "Una bici elettrica perfetta per la città, le piste ciclabili ed i sentieri di campagna.",
+     "price": 3.500,
+     "old_price": null,
+     "taglia": ["S", "M", "L", "XL"],
+     "colori_qty": "3"
+     "stars": 5,
+     "rating": 100.000,
+      "currency": "€"
+    },
+    
+     {
+      "id": 3,
+      "imgage": ["https://m.media-amazon.com/images/I/61GjoP+slLL._AC_SL1000_.jpg",
+                 "https://m.media-amazon.com/images/I/61baPlVOyBL._AC_SL1000_.jpg"], 
+      "title": "Fafrees Adventure Neo 4.2 EQ ",
+      "brand": "Fafrees",
+      "year": 2020,
+      "condition": "nuovo",
+      "favorite": false,
+      "description":"Una bici elettrica ideale per andare al lavoro o per godersi le caratteristiche stradine di campagna",
+      "price": 5000,
+      "old_price": 7500,
+      "taglia": ["S", "M", "L"],
+      "colori_qty": 4,
+      "stars": 3,
+      "rating": "9.500",
+      "currency": "€",
+     },
+  
+     {
+      "id": 4,
+      "imgage": [
+                   "https://m.media-amazon.com/images/I/71MY4ruDbnL._AC_SL1500_.jpg",
+                   "https://m.media-amazon.com/images/I/71tOOvAIyRL._AC_SL1500_.jpg",
+                   "https://m.media-amazon.com/images/I/71alC4gWvsL._AC_SL1500_.jpg",
+                    "https://m.media-amazon.com/images/I/71hyI4tWH1L._AC_SL1500_.jpg"
+                ], 
+      "title": "F.lli Schiano Elegance Bicicleta, Women's",
+      "brand": "F.lli Schiano",
+      "year": 2018,
+      "condition": "usato",
+      "favorite": false,
+      "description": "Una bici elettrica perfetta per la città, le piste ciclabili ed i sentieri di campagna.",
+      "price": 2000,
+      "old_price": null,
+      "taglia": ["M"],
+      "colori_qty": "1",
+      "stars": 3,
+      "rating": "1600",
+      "currency": "€",
+    },
+
  ]
 }
