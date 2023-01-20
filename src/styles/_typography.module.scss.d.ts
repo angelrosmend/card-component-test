@@ -11,6 +11,7 @@ export const mainYellow: string;
 export const subtitleArch: string;
 export const subtitleArchI: string;
 export const subtitleBarI: string;
+export const subtitleLabel: string;
 export const white1: string;
 export const white2: string;
 export const white3: string;
