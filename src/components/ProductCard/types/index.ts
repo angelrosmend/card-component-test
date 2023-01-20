@@ -1,3 +1,5 @@
+import { CSSProperties } from "react";
+
 type condition =  "usato" | "nuovo";
 
 export interface productDetails{
@@ -21,12 +23,18 @@ export interface productDetails{
 
 export interface CardProps{
     className: string;
-    style: object;
+    style: CSSProperties;
     item: productDetails;
 }
 
 export interface cardTagProps{
     label: string;
     content: string,
-    mode: "primary" | "secondary"
+    mode: "primary" | "secondary";
+    style?: CSSProperties;
+}
+
+export interface favoriteProps{
+    isFavorite: boolean;
+    id: string;
 }
