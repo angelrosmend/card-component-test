@@ -19,13 +19,13 @@ margin: 0;
 }
 
 .cardDescription{
-font-family: 'Archivo';
-font-style: italic;
-font-weight: 400;
-font-size: $font-size-xs;
-line-height: 17px;
-color: $main-black;
-margin: 0;
+   font-family: 'Archivo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: $font-size-xs;
+   line-height: 17px;
+   color: $main-black;
+   margin: 0;
 }
 
 .cardTags{
@@ -48,6 +48,12 @@ margin: 0;
    text-transform: uppercase;
    margin: 0;
 }
+.subtitleLabel{
+   @include subtitleMixin;
+   line-height: 23px;
+   color: $grey-2;
+   font-size: $font-size-sm;
+}
 .subtitleArch{
    @include subtitleMixin;
    line-height: 17px;
@@ -65,4 +71,26 @@ margin: 0;
    font-family: 'Barlow';
    font-style: italic;
    letter-spacing: 0.01em;
+}
+
+.cardPrice{
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 600;
+   font-size: $font-size-lg;
+   line-height: 33px;
+   margin: 0;
+   color: $main-black;
+}
+.cardOldPrice{
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   font-size: $font-size-sm;
+   line-height: 33px;
+   text-decoration-line: line-through;
+   margin: 0;
+   color: $grey-1;
+   display: flex;
+   align-items: center;
 }
