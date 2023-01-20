@@ -1,10 +1,16 @@
 import React from 'react'
+import ProductCard from '../ProductCard/ProductCard'
 import styles from "./productList.module.scss"
 
 function ProductsList() {
-  console.log(styles)
   return (
-    <div className={styles.containerTest}>Hello</div>
+    <div className={styles.listContainer}>
+      <ProductCard/>
+      <ProductCard/>
+      <ProductCard/>
+      <ProductCard/>
+
+    </div>
   )
 }
 

@@ -1,3 +1,4 @@
+export const appContainer: string;
 export const cardDescription: string;
 export const cardTags: string;
 export const cardTitle: string;
