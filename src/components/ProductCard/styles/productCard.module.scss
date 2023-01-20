@@ -7,4 +7,155 @@
     flex-direction: column;
     box-shadow: 0px 7px 30px rgba(106, 106, 155, 0.1);
     background: $white-1;
+    position: relative;
+    .upperIconswrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 48px;
+        .favoriteBtn{
+            position: absolute;
+            top: 16px;
+            left: 22px;
+        }
+        .conditionIconWrapper{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+    img{
+        width: 100%;
+        height: 248px;
+    }
+    .cardInfoWrapper{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 16px 8px;
+        gap: 16px;
+        width: 100%;
+        height: 269px;
+        .infoBrandRating{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+         @mixin cardTag{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 4px 8px;
+            gap: 8px;
+            width: fit-content;
+            height: 22px;
+        }
+        .cardTagPrimary{
+            @include cardTag;
+            background: $grey-3;
+            p{
+                color: $white-1;
+            }
+            label{
+                color: $grey-6;
+            }
+        }
+        .cardTagSecondary{
+            @include cardTag;
+            background: $white-2;
+            p{
+                color: $grey-3;
+            }
+            label{
+                color: $grey-4;
+            }
+        }
+        .cardPriceWrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            height: 30px;
+        }
+
+    }
+    .cardCtaWrapper{
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 0px 0px 16px;
+        gap: 62px;
+        width: 100%;
+        height: 72px;
+        .btnScopri{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        p, h3{
+            font-family: 'Barlow';
+            font-style: italic;
+            font-weight: 700;
+            font-size: $font-size-md;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: $white-1;
+        }
+
+        .checkboxCompWrapper{
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            input[type="checkbox"] {
+                -webkit-appearance: none;
+                appearance: none;
+                background-color: $white-1;
+                margin: 0;
+                font: inherit;
+                color: $main-black;
+                width:20px;
+                height:20px;
+                border: 3px solid currentColor;
+                border-radius: 10%;
+                transform: translateY(-0.075em);
+                display: grid;
+                place-content: center;
+                cursor: pointer;
+                &:checked{
+                    background-color: $main-black;
+                }
+                &:checked::before {
+                    transform: scale(1);
+                    background-color: $main-black;
+                  }
+                &::before{
+                        content: "";
+                        width: 0.65em;
+                        height: 0.65em;
+                        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+                        transform: scale(0);
+                        transform-origin: bottom left;
+                        transition: 120ms transform ease-in-out;
+                        box-shadow: inset 1em 1em $white-1;
+                        
+                }
+                :disabled {
+                    color: $grey-2;
+                    cursor: not-allowed;
+                  }
+              }
+        }
+ 
+    }
+
 }
