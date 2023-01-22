@@ -2,15 +2,15 @@
   "products": [
     {
      "id": 1,
-     "image": "https://images.bike24.net/i/mb/b8/fe/ce/adventure-neo-1-eq-emerald-1-1144251.jpg", 
+     "image": ["https://images.bike24.net/i/mb/b8/fe/ce/adventure-neo-1-eq-emerald-1-1144251.jpg"], 
      "title": "Adventure Neo 1 Eq",
      "brand":"Cannondale",
      "year": 2019,
      "condition": "usato",
      "favorite": false,
      "description": "Una bici elettrica ideale per andare al lavoro o per godersi le caratteristiche stradine di campagna",
-     "price": 3.299,
-     "old_price": 4.200,
+     "price": 3299,
+     "old_price": 4200,
      "taglia": ["S", "M", "L", "XL"],
      "colori_qty": "+4",
      "stars": "4",
@@ -30,12 +30,12 @@
      "condition": "nouvo",
      "favorite": false,
      "description": "Una bici elettrica perfetta per la città, le piste ciclabili ed i sentieri di campagna.",
-     "price": 3.500,
+     "price": 3500,
      "old_price": null,
      "taglia": ["S", "M", "L", "XL"],
      "colori_qty": "3",
      "stars": 5,
-     "rating": 100.000,
+     "rating": 100000,
       "currency": "€"
     },
     
@@ -54,7 +54,7 @@
       "taglia": ["S", "M", "L"],
       "colori_qty": 4,
       "stars": 3,
-      "rating": "9.500",
+      "rating": "9500",
       "currency": "€"
      },
   
