@@ -16,6 +16,10 @@ letter-spacing: -0.5px;
 text-transform: uppercase;
 color: $main-black;
 margin: 0;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+-webkit-line-clamp: 1;
 }
 
 .cardDescription{

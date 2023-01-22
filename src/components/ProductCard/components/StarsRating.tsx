@@ -12,7 +12,7 @@ function StarsRating({ rating, stars_qty }: starsRatingProps) {
   return (
     <span style={{ display: "flex", gap: "4px" }}>
       {[...Array(5)].map((_, index) => {
-        return <IconSVG iconProps={index < stars_qty ? star_on : star_off} />;
+        return <IconSVG key={index} iconProps={index < stars_qty ? star_on : star_off} />;
       })}
       <Text subtitle className={typography.subtitleArchI}>
         {rating}
