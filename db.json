@@ -15,7 +15,7 @@
      "colori_qty": "+4",
      "stars": "4",
      "rating": 8.560,
-     "currency": "€",
+     "currency": "€"
    },
    {
      "id": 2,
@@ -23,7 +23,7 @@
                  "https://m.media-amazon.com/images/I/51KH9QAODZL._AC_SX425_.jpg",
                  "https://m.media-amazon.com/images/I/51r5DxTQsZL._AC_SL1000_.jpg",
                  "https://m.media-amazon.com/images/I/41mOGNxWQhL._AC_SL1000_.jpg"
-               ]
+               ],
      "title":"Cannondale Adventure Neo 3.1 EQ",
      "brand": "Cannondale",
      "year": 2022,
@@ -33,7 +33,7 @@
      "price": 3.500,
      "old_price": null,
      "taglia": ["S", "M", "L", "XL"],
-     "colori_qty": "3"
+     "colori_qty": "3",
      "stars": 5,
      "rating": 100.000,
       "currency": "€"
@@ -55,7 +55,7 @@
       "colori_qty": 4,
       "stars": 3,
       "rating": "9.500",
-      "currency": "€",
+      "currency": "€"
      },
   
      {
@@ -78,7 +78,7 @@
       "colori_qty": "1",
       "stars": 3,
       "rating": "1600",
-      "currency": "€",
-    },
+      "currency": "€"
+    }
  ]
 }
