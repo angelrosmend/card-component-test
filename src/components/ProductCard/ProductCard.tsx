@@ -9,9 +9,6 @@ import { arrowRight } from '../Icon_svg'
 import Favorite from './components/Favorite'
 import Condition from './components/Condition'
 import StarsRating from './components/StarsRating'
-
-
-
 function ProductCard({className, style, item}: CardProps) {
   return (
     <div style={style} className={`${styles.cardContainer} ${className || ""}`}>
