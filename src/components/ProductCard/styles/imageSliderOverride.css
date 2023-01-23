@@ -1,0 +1,18 @@
+.slick-next{
+    right: 130px!important;
+    bottom: 18px!important;
+    top: auto!important;
+}
+.slick-prev{
+    left: 130px!important;
+    bottom: 18px!important;
+    top: auto!important;
+    z-index: 15;
+}
+
+.slick-next:hover, .slick-prev:hover{
+    border-radius: 50%!important;
+    padding: 2.5px;
+    transition: 0.1s all ease-in-out;
+    background: rgba(0, 0, 0, 0.08)!important;
+}

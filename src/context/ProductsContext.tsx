@@ -1,4 +1,4 @@
-import React, { ReactNode, useContext, useMemo } from 'react'
+import React, { ReactNode, useContext} from 'react'
 import useFetch from '../hooks/useFetch'
 import { productsState } from '../types'
 
@@ -7,10 +7,10 @@ const initialState = {
         data: [],
         loading: false,
         error: false,
-        errorMessage: false,
+        errorMessage: null,
     }
 
-const ProductsContext = React.createContext<productsState>(initialState)
+const ProductsContext = React.createContext<(productsState)>(initialState)
 
 interface providerProps {
     children: ReactNode,
@@ -21,7 +21,7 @@ export const ProductsContextProvider: React.FC<providerProps> = ({children}) => 
     
     const products = useFetch({url: products_URL,  initialState})
 
-    return <ProductsContext.Provider value={products}>
+    return <ProductsContext.Provider value={{...products}}>
         {children}
     </ProductsContext.Provider>
 }

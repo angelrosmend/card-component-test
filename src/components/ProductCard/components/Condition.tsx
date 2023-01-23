@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from "../styles/productCard.module.scss"
+import { conditionProps } from '../types'
 
-function Condition({condition}: any) {
+function Condition({condition}: conditionProps) {
   return condition === "nuovo" ? <IconNuovo/> : <IconUsato/>
 }
 
