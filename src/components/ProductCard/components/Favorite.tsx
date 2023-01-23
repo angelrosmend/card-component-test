@@ -4,7 +4,7 @@ import IconSVG from "../../Icon_svg/IconSVG";
 import { favoriteProps } from "../types";
 import styles from "../styles/productCard.module.scss";
 
-function Favorite({ isFavorite }: favoriteProps) {
+function Favorite({ isFavorite = false }: favoriteProps) {
   const [favorite, setFavorite] = useState(isFavorite)
 
   return (
