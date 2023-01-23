@@ -1,51 +1,32 @@
-import React from 'react'
+import React, { Fragment, useState } from 'react'
 import Slider from "react-slick";
 import { arrowBack, arrowNext } from '../../Icon_svg';
-import IconSVG from '../../Icon_svg/IconSVG';
+import { ArrowSlider} from '../../SliderArrows/SliderArrows';
+import SlideIndicator from './SlideIndicator';
 
 function CardImage({images}) {
 
-    function PrevArrow(props) {
-        const { style, onClick, className } = props;
-        return (
-            <IconSVG
-            style={{...style}}
-            iconProps={arrowBack}
-            onClick={onClick}
-            className={className}
-          />
-        )
-    }
-
-    function NextArrow(props) {
-        const { style, onClick,className } = props;
-        return (
-            <IconSVG
-            iconProps={arrowNext}
-            onClick={onClick}
-            style={{...style}}
-            className={className}
-          />
-        )
-    }
-
+  const [currentSlide, setCurrentSlide] = useState(0)
 
     const settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: <PrevArrow/>,
-        nextArrow:<NextArrow/>,
+        prevArrow: <ArrowSlider icon={arrowBack} setCurrentSlide={setCurrentSlide}/>,
+        nextArrow:<ArrowSlider  icon={arrowNext} setCurrentSlide={setCurrentSlide}/>,
       };
 
       return (
+        <Fragment>
         <Slider {...settings}>
             {images && images.map((imageUrl, index)=>{
                 return <img src={imageUrl} key={index}/>
             })}
         </Slider>
+        <SlideIndicator image_qty={images.length} style={{width: `${100 / images.length || 1 }%`, transform:`translate(${currentSlide > 0 ? (343 / images.length) * currentSlide : 0 }px)`}}/>
+        </Fragment>
   )
 }
 
