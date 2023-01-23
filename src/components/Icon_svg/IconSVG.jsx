@@ -1,9 +1,10 @@
 import React from 'react'
 
-function IconSVG({iconProps = {}, className = ""}) {
-
+function IconSVG(props) {
+  const {iconProps = {}, className = "", onClick} = props
   return (
     <svg
+      onClick={onClick && onClick}
       className={className}
       width={iconProps?.width || ""}
       height={iconProps?.height || ""}
