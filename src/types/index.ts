@@ -1,10 +1,12 @@
+import { Dispatch, SetStateAction } from "react";
+
 export interface productProps {
   id: number;
   image: string | string[];
   title: string;
   brand: string;
   year: number | string;
-  condition: string;
+  condition:  "usato" | "nuovo";
   favorite: boolean;
   description: string;
   price: number;
@@ -13,7 +15,7 @@ export interface productProps {
   colori_qty: number | string;
   stars: number;
   rating: number | string;
-  currency: string;
+  currency: "€" | "$";
   eBike: string;
 }
 
