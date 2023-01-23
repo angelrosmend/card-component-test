@@ -1,7 +1,9 @@
 import { CSSProperties } from "react";
 import { productProps } from "../../../types";
 
-type condition =  "usato" | "nuovo";
+export interface conditionProps{
+    condition:  "usato" | "nuovo";
+};
 
 export interface CardProps{
     className: string;
@@ -19,4 +21,10 @@ export interface cardTagProps{
 export interface favoriteProps{
     isFavorite: boolean;
     id: string;
+}
+
+export interface CardPriceProps{
+    currentPrice: number,
+    oldPrice:number | null,
+    currency: "€" | "$";
 }
