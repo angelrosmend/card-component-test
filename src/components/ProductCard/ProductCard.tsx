@@ -9,6 +9,8 @@ import { arrowRight } from '../Icon_svg'
 import Favorite from './components/Favorite'
 import Condition from './components/Condition'
 import StarsRating from './components/StarsRating'
+import CardImage from './components/Image'
+import "./styles/imageSliderOverride.css"
 function ProductCard({className, style, item}: CardProps) {
   return (
     <div style={style} className={`${styles.cardContainer} ${className || ""}`}>
@@ -16,7 +18,7 @@ function ProductCard({className, style, item}: CardProps) {
         <Favorite isFavorite={item.favorite} id={"1"}/>
         <Condition condition={item.condition}/>
       </div>
-      <img src={item.image[0]}></img>
+      <CardImage images={item.image}/>
       <div className={styles.cardInfoWrapper}>
         <div className={styles.infoBrandRating}>
           <Text subtitle className={typography.subtitleArch}>
