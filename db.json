@@ -20,7 +20,8 @@
       "colori_qty": "1",
       "stars": 3,
       "rating": "1600",
-      "currency": "€"
+      "currency": "€",
+      "eBike": "corsa"
     },
    {
      "id": 2,
@@ -41,7 +42,8 @@
      "colori_qty": "3",
      "stars": 5,
      "rating": 100000,
-      "currency": "€"
+      "currency": "€",
+     "eBike": "corsa"
     },
     
      {
@@ -60,7 +62,8 @@
       "colori_qty": 4,
       "stars": 3,
       "rating": "9500",
-      "currency": "€"
+      "currency": "€",
+      "eBike": "corsa"
      },
      {
      "id": 4,
@@ -77,7 +80,8 @@
      "colori_qty": "+4",
      "stars": "4",
      "rating": 8.560,
-     "currency": "€"
+     "currency": "€",
+      "eBike": "corsa"
    }
  ]
 }
