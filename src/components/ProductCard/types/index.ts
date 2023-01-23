@@ -6,8 +6,8 @@ export interface conditionProps{
 };
 
 export interface CardProps{
-    className: string;
-    style: CSSProperties;
+    className?: string;
+    style?: CSSProperties;
     item: productProps;
 }
 

@@ -76,7 +76,9 @@ function ProductCard({ className, style, item }: CardProps) {
         <Button
           label="SCOPRI"
           className={styles.btnScopri}
-          icon={<IconSVG iconProps={arrowRight} />}
+          icon={<IconSVG iconProps={arrowRight}
+          mode={"primary"}
+          />}
         />
       </div>
     </div>
