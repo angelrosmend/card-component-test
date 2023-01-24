@@ -35,7 +35,7 @@ function ProductCard({ className, style, item }: CardProps) {
           </Text>
           <StarsRating stars_qty={item.stars} rating={item.rating} />
         </div>
-        <div>
+        <div className={styles.titleDescriptionWrapper}>
           <Text title className={typography.cardTitle}>
             {item.title}
           </Text>
