@@ -1,4 +1,6 @@
 export const cardDescription: string;
+export const cardOldPrice: string;
+export const cardPrice: string;
 export const cardTags: string;
 export const cardTitle: string;
 export const grey1: string;

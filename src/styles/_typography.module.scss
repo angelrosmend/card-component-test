@@ -30,6 +30,8 @@ overflow: hidden;
    line-height: 17px;
    color: $main-black;
    margin: 0;
+   text-overflow: ellipsis;
+   overflow: hidden;
 }
 
 .cardTags{
